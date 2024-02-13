@@ -74,6 +74,7 @@ const Dashboard = () =>{
         console.log("Type of res: ", typeof res);
 
         getTaskLis()
+        getStatistique()
         setVisibleModalupdateOrDelete(false)
       setIsloadingList(true)
 
@@ -196,6 +197,7 @@ console.log("currentStatistiques from Dashboard : ", currentStatistiques);
         console.log("Type of res: ", typeof res);
         setAllTasks([...AllTasks, parsedRes?.data])
         getTaskLis()
+        getStatistique()
         setIsloadingList(false)
         sheetRef.current.close()
         formikActions.setSubmitting(false);
@@ -257,6 +259,7 @@ console.log("currentStatistiques from Dashboard : ", currentStatistiques);
           // setAllTasks([...AllTasks, parsedRes?.data])
           setAllTasks([])
           getTaskLis()
+          getStatistique()
           // setIsloadingList(false)
           sheetRef.current.close()
           formikActions.setSubmitting(false);
@@ -296,6 +299,7 @@ then((res) => {
   console.log("Type of res: ", typeof res);
 
   setAllTasks(parsedRes?.tasks)
+  getStatistique()
   setIsloadingList(false)
 
 })
@@ -325,6 +329,7 @@ then((res) => {
   console.log("Type of res: ", typeof res);
 
   setAllTasks(parsedRes?.tasks)
+  getStatistique()
   setIsloadingList(false)
   sheetRef.current.close()
 
