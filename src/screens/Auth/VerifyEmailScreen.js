@@ -243,7 +243,7 @@ const VerifyEmailScreen = () => {
             </View>
             <View style={styles.forgotDes}>
               <Text style={styles.forgotDesLbl}>
-                An 4 digit code has been sent to
+                An 6 digit code has been sent to
               </Text>
               <Text style={styles.forgotDesLbl}> {email}</Text>
               {
@@ -293,7 +293,9 @@ const VerifyEmailScreen = () => {
    containerStyle: styles.container,
    inputsContainerStyle: styles.inputsContainer,
    pinCodeContainerStyle: styles.pinCodeContainer,
-   pinCodeTextStyle: styles.pinCodeText,
+   pinCodeTextStyle:{
+    color:"#000000",
+   },
    focusStickStyle: styles.focusStick,
    focusedPinCodeContainerStyle: styles.activePinCodeContainer
   }}
