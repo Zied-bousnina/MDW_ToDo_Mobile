@@ -61,3 +61,24 @@ Explore more about React Native:
 - [Learn the Basics](https://reactnative.dev/docs/tutorial) - A guided tour of React Native basics.
 - [Blog](https://reactnative.dev/blog/) - Read the latest official React Native blog posts.
 - [@facebook/react-native](https://github.com/facebook/react-native) - The open-source GitHub repository for React Native.
+
+## Additional Notes
+
+Ensure that you have the necessary dependencies installed for Android and iOS development.
+
+If you encounter issues related to CMake or project location, consider placing the project under `C:/project`.
+
+### Scripts
+- `npm run lint`: Run ESLint for code linting.
+- `npm start`: Start the Metro server.
+- `npm test`: Run Jest for testing.
+
+### Dependencies
+List of project dependencies can be found in `package.json`.
+
+### Contributing
+If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
