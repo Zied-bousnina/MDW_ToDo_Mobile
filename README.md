@@ -1,4 +1,4 @@
-# ToDo App - Maison du Web
+# ToDo App - Maison du Web By zied bousnina
 
 This React Native project is created using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
@@ -10,7 +10,7 @@ This React Native project is created using [`@react-native-community/cli`](https
 
 Start **Metro**, the JavaScript bundler that ships with React Native. Run the following command from the root of your React Native project:
 
-```bash
+
 # using npm
 npm start
 
@@ -18,13 +18,13 @@ npm start
 yarn start
 
 
-## Step 2: Start your Application
+###  Step 2: Start your Application
 
 While Metro Bundler is running in its own terminal, open a new terminal from the root of your React Native project. Run the following command to start your Android or iOS app:
 
 **For Android:**
 
-```bash
+
 # using npm
 npm run android
 
